@@ -1,0 +1,45 @@
+#cover:hover{
+	width: 150px; 
+	height: 600px;
+	opacity: 0.75;
+}
+
+td{
+	border: 2px solid black;
+}
+
+table{
+	width:200px;
+	height: 300px;
+	text-align: center;
+	margin-left: 700px;
+}
+
+h1{
+	text-align: center;
+	margin-left: 1%;
+}
+
+#f1:hover{
+	width: 40px;
+	height: 130px;
+	background-image: url("https://avatanplus.com/files/resources/original/5c5ae74cd5ab7168c317844b.png");
+	color: purple;
+	border-radius: 15%;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-name: rotation;
+}
+
+	@keyframes rotation{
+		from{background-size: 200px; 
+	}
+
+	50%{
+		background-size: 50px; 
+	}
+
+	to{
+		background-size: 200px;
+	}
+}

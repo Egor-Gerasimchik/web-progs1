@@ -1,0 +1,33 @@
+#imgone:hover{
+	width: 500px;
+	height: 500px;
+	transition: 2s ease
+}
+
+#imgone{
+	width: 300px;
+	height: 300px;
+	transition: 1s ease;
+}
+
+#imgtwo:hover{
+	width: 500px;
+	height: 500px;
+	transition: 2s ease
+}
+
+#imgtwo{
+	width: 300px;
+	height: 300px;
+	transition: 1s ease;
+}
+
+.blok {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+.blok:hover {
+  background: white;
+  color: green;
+}

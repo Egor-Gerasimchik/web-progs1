@@ -1,0 +1,23 @@
+body{
+	color: rgb(5, 5, 5);
+}
+
+strong{
+	color: rgb(95, 5, 1);
+}
+
+i{
+	color: rgb(1, 2, 3);
+}
+
+b{
+	color: rgb(6, 6, 6);
+}
+
+span{
+	color: #0B2349;
+	font-size: 24pt;
+	font-style: italic;
+	font-weight: bold;
+	/*font-family: ;*/
+}

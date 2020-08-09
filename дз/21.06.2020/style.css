@@ -1,0 +1,33 @@
+
+strong{
+	color: red;
+}
+
+b{
+	color: aqua;
+}
+
+span{
+	color: #0B2349;
+	font-size: 24pt;
+
+	font-weight: bold;
+	/*font-family: ;*/
+}
+
+del{
+	color: gray;
+}
+
+ins{
+	color: green;
+}
+
+i{
+	color: purple;
+	font-style: italic;
+}
+
+h1 {
+    font-family: Arial;
+   }

@@ -1,0 +1,11 @@
+#foto:hover{
+	width: 500px;
+	height: 500px;
+	transition: 0.5s ease
+}
+
+#foto{
+	width: 450px;
+	height: 450px;
+	transition: 0.5s ease
+}

@@ -1,0 +1,96 @@
+html{
+  background: white;
+  padding: 40px;
+  width: 170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.trafficlight{
+  background: gray;
+  background-color: gray;
+  width: 170px;
+  height: 400px;
+  position: relative;
+  border: solid 2px black;
+}
+
+.red{
+  background: white;
+  background-color: red;
+  background-size: 5px 5px; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  animation: 3s red infinite;
+  border: dotted 2px red;
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px red;
+}
+
+.yellow{
+  background: white;
+  background-color: yellow;
+  background-size: 5px 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: dotted 2px yellow;
+  position: absolute;
+  top: 145px;
+  left: 35px;
+  animation: 4s yellow infinite;
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px yellow;
+}
+
+.green{
+  background: white;
+  background-color: green;
+  background-size: 5px 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: dotted 2px lime;
+  position: absolute;
+  top: 270px;
+  left: 35px;
+  box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px lime;
+  animation: 3s green infinite;
+}
+
+@keyframes red{
+  0%{opacity: 1}
+  20%{opacity: 1}
+  40%{opacity: 1}
+  60%{opacity: .1}
+  80%{opacity: .1}
+  100%{opacity: .1}
+}
+
+@keyframes yellow{
+  0%{opacity: .1}
+  20%{opacity: .1}
+  40%{opacity: 1}
+  50%{opacity: .1}
+  60%{opacity: .1}
+  80%{opacity: .1}
+  86%{opacity: 1}
+  100%{opacity: 1}
+}
+
+@keyframes green{
+  0%{opacity: .1}
+  40%{opacity: .1}
+  60%{opacity: 1}
+  80%{opacity: 1}
+  83%{opacity: .1}
+  100%{opacity: .1}
+}
