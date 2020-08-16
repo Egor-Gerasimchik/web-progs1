@@ -1,0 +1,23 @@
+#p1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+}
+
+#p2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+
+  position: absolute;
+  bottom: 0%;
+  left: 55%;
+}
+
+hr {
+  margin-top: 400px;
+}
