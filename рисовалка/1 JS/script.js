@@ -32,6 +32,12 @@ canvas.style.marginLeft = (window.innerWidth / 2) - (canvas.width / 2) + "px";
 document.body.appendChild(canvas);
 
 let color = "black";
+let brushSize = 2;
+
+let prevX = prevY = 0;
+let currX = currY = 0;
+
+let isDraw = false;
 
 for (i = 0; i < colors.length; i++) {
     document.getElementById(colors[i]).addEventListener("click", function (event) {
@@ -45,4 +51,46 @@ for (i = 0; i < colors.length; i++) {
         event.target.style.height = "75px";
     })
 
+}
+
+document.addEventListener("mouseup", function (event) {
+    isDraw = false;
+});
+canvas.addEventListener("mousedown", function (event) {
+    isDraw = true;
+    prevX = event.offsetX;
+    prevY = event.offsetY;
+    currX = event.offsetX;
+    currY = event.offsetY;
+});
+canvas.addEventListener("mouseout", function (event) {
+    if (isDraw == true) {
+        prevX = currX;
+        prevY = currY;
+        currX = event.offsetX;
+        currY = event.offsetY;
+    }
+
+
+});
+canvas.addEventListener("mousemove", function (event) {
+    if (isDraw == true) {
+        prevX = currX;
+        prevY = currY;
+        currX = event.offsetX;
+        currY = event.offsetY;
+        draw();
+    }
+
+});
+
+function draw() {
+    let context = canvas.getContext("2d");
+    context.beginPath();
+    context.moveTo(prevX, prevY);
+    context.lineTo(currX, currY);
+    context.strokeStyle = color;
+    context.lineWidth = brushSize;
+    context.stroke();
+    context.closePath();
 }

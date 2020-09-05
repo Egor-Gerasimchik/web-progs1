@@ -1,0 +1,38 @@
+#userForm {
+    border: 2px solid purple;
+    width: 450px;
+    height: 10px;
+}
+
+#userDay {
+    background-color: skyblue;
+    height: 20px;
+    width: 30px;
+}
+
+#userMonth {
+    background-color: skyblue;
+    height: 20px;
+    width: 30px;
+}
+
+#userYear {
+    background-color: skyblue;
+    height: 20px;
+    width: 30px;
+}
+
+#userQuote {
+    background-color: skyblue;
+}
+
+#userName {
+    background-color: skyblue;
+}
+
+#userBtn {
+    width: 450px;
+    background-color: rgb(152, 160, 168);
+    text-align: center;
+    /*height: 10px;*/
+}
