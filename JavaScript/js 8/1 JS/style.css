@@ -1,0 +1,22 @@
+#field {
+    margin-left: 10%;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+}
+
+.lime {
+    background-color: lime !important;
+}
+
+.odd {
+    height: 50px;
+    width: 50px;
+    transition: 5s ease !important;
+    border-radius: 100% !important;
+}

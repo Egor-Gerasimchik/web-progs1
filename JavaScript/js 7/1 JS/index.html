@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Последнее занятие</title>
+</head>
+
+<body>
+	<form id="popitka" action="">
+
+		<label for="userName">Введите своё имя:</label>
+		<br>
+		<input name="userName" id="userName" type="text" placeholder="Иван Пупкин">
+		<br>
+		<label for="userAge">Введите свой возраст:</label>
+		<br>
+		<input name="userAge" id="userAge" type="number" placeholder="100">
+		<br>
+		<div><label for="userFrom">Откуда ты?</label></div>
+		<input type="radio" name="userFrom" id="userFrom1" value="Веб-Погромисты"><label
+			for="userFrom1">Веб-Погромисты</label>
+		<br>
+		<input type="radio" name="userFrom" id="userFrom2" value="Веб-Войска"><label for="userFrom2">Веб-Войска</label>
+		<br>
+		<input type="radio" name="userFrom" id="userFrom3" value="Улан" checked><label for="userFrom3">Улан</label>
+		<br>
+		<div><label for="userLike">что ты любишь?</label></div>
+		<input type="checkbox" name="userLike" id="userLike1" value="работать"><label for="userLike1">работать</label>
+		<br>
+		<input type="checkbox" name="userLike" id="userLike2" value="есть"><label for="userLike2">есть</label>
+		<br>
+		<input type="checkbox" name="userLike" id="userLike3" value="дышать"><label for="userLike3">дышать</label>
+		<br>
+		<input type="checkbox" name="userLike" id="userLike4" value="пить"><label for="userLike4">пить</label>
+		<br>
+		<input type="checkbox" name="userLike" id="userLike5" value="лениться"><label for="userLike5">лениться</label>
+		<br>
+		<input type="submit" value="button">
+
+		<div id="story"></div>
+
+	</form>
+
+
+
+	<script src="script.js"></script>
+</body>
+
+
+</html>
