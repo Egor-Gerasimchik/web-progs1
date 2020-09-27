@@ -1,36 +1,37 @@
-console.log($(".circle").css("background-color"))
+console.log($(".circle").css("background-color"));
 
 $(".circle").css({
-  "background-color": "orange",
-  "border-radius": "25%"
-})
+  "background-color": "black",
+  "border-radius": "25%",
+});
 
 // $(".circle:nth-child(5)").css({
 //   "background-color": "red"
 // })
 
-$(".circle:nth-child(2n)").css({
-  "background-color": "imperial"
-})
-
-$(".circle:nth-child(2n + 1)").css({
-  "background-color": "maroon"
-})
-
-$(".circle:nth-child(1)").css({
-  "background-color": "salmon"
-})
-
-$(".circle").click(function () {
-  $(event.target).toggleClass("lime");
+$(".circle:nth-child(2n+1)").css({
+  "background-color": "red",
 });
 
+$(".circle:nth-child(2n)").css({
+  "background-color": "yellow",
+});
 
+$(".circle:nth-child(1)").css({
+  "background-color": "black",
+});
 
+$(".circle:nth-child(5)").css({
+  "background-color": "black",
+});
 
-$(".circle:nth-child(2n + 1)").click(function (event) {
-  $(event.target).toggleClass("odd");
-})
+$(".circle:nth-child(9)").css({
+  "background-color": "black",
+});
+
+$(".circle:nth-child(2n)").click(function () {
+  $(event.target).toggleClass("clicked");
+});
 
 // $(".circle:nth-child()").css({
 //   "background-color": "black"
