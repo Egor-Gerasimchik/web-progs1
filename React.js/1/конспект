@@ -1,0 +1,54 @@
+//ПЕРЕМЕННЫЕ
+let;
+var;
+let c;
+c = "hello"
+//МАССИВЫ
+let numbers = [0, 1, 2];
+let helloWords = ["hello", "привет", "hi"]
+let digitsAndChars = [1, "b", 5+8, c/5*4];
+let emptyArr = [];
+let emptyArr2 = new Array();
+
+helloWords[1]
+let arr = ["a", "b", "c"];
+arr[4] = "d" //не надо такое нам
+arr.push("d") //ТАКОЕ НАМ НАДО
+
+arr.pop() //удалит последний элемент
+
+arr.length //длина массива
+
+
+
+
+//ФУНКЦИИ
+
+
+
+
+
+
+
+//УСЛОВИЯ
+
+
+
+
+
+
+
+
+//ЦИКЛЫ
+
+
+
+
+
+
+
+
+
+
+
+

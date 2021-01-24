@@ -1,3 +1,4 @@
-col{
-	text-align: center;
+.col {
+    background-color: green;
+    border: 1px solid black;
 }
